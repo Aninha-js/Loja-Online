@@ -33,9 +33,9 @@ public class Main {
 
             Produto produto;
             if (tipo == 1) {
-                System.out.print("Peso do produto (kg): ");
-                double peso = Double.parseDouble(scanner.nextLine());
-                produto = new ProdutoFisico(nomeProduto, preco, descricao, peso);
+                System.out.print("Prateleira: ");
+                double prateleira = Double.parseDouble(scanner.nextLine());
+                produto = new ProdutoFisico(nomeProduto, preco, descricao, prateleira);
             } else {
                 System.out.print("URL para download: ");
                 String url = scanner.nextLine();
